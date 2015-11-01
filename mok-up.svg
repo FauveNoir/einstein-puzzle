@@ -27,11 +27,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="415.99725"
-     inkscape:cy="273.72421"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="342.81277"
+     inkscape:cy="324.67659"
      inkscape:document-units="px"
-     inkscape:current-layer="g15092"
+     inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1920"
      inkscape:window-height="1080"
@@ -101,7 +101,9 @@
    style="fill:#fb660a;fill-opacity:1"
    id="tspan4571">; <tspan
    style="fill:#d7005f;fill-opacity:1"
-   id="tspan4573">s</tspan> h7</tspan></tspan></tspan></text>
+   id="tspan4573">s</tspan> h7 ; <tspan
+   style="fill:#d7005f;fill-opacity:1"
+   id="tspan4578">-</tspan> C A </tspan>4</tspan></tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text8115"
@@ -310,7 +312,8 @@
                  y="764.12048"
                  x="245.36673"
                  id="tspan3952"
-                 sodipodi:role="line">C</tspan></text>
+                 sodipodi:role="line"
+                 style="fill:#d7005f;fill-opacity:1">C</tspan></text>
             <rect
                y="721.4931"
                x="133.41669"
@@ -328,7 +331,8 @@
                  y="764.14398"
                  x="142.16518"
                  id="tspan3964"
-                 sodipodi:role="line">A</tspan></text>
+                 sodipodi:role="line"
+                 style="fill:#d7005f;fill-opacity:1">A</tspan></text>
           </g>
         </g>
         <g
