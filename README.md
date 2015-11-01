@@ -3,14 +3,16 @@
 This version of the classic Einstein game is made to be all used with the keyboard (like vim).
 
 ##Usage
+It is possible to execute one or multiple action in one command. The formal syntax is the following `<action> ; <action>…`. The last action don’t necessary need to be followed by a `;`.
+
 ###Suppressing a letter
-You could suppress a letter from a specific column of the main table with the command `<operator> <accusative> <locative>`.
+You could suppress a letter from a specific column of the main table with the command `<operator> <accusative>… <locative>`.
 
 If the operator is `+` it will supress the mentioned letter from all column witch is NOT specified by the locative. Else if the operator is `-` it will supress the mentioned letter from all column witch is specified by the locative.
 
-The accusative is the letter you want to specify. The unicode character could be directly used but, for latin keyboards, their is ways to write it. See the Accusative section for more inforamtion.
+The accusative is the letter you want to specify. The unicode character could be directly used but, for latin keyboards, their is ways to write it. Note you can specify multiple letters in one action; you have only to separate it with a space like `+ A ب Δ 3`. See the Accusative section for more inforamtion.
 
-The locative specify the desired column. You can mention one column by typing his number but, be carrefull, the columns began by the nunber 0. You can also specify a range by separing the first and the last range column with a dash. Like this : `2-4`.
+The locative specify the desired column. You can mention one or multiple columns by typing his number but, be carrefull, the columns began by the nunber 0. To specify multiple columns you only have to put theire numbers like `+ A 245`. You can also specify a range by separing the first and the last range column with a dash. Like this : `2-4`. Naturally, it is possible to combine multiple ranges or ranges and individual columns.
 
 ####Accusative
 You can symply type the unicode character for the letter, so there is six alphabet:

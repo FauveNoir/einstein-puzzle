@@ -27,16 +27,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="363.08506"
-     inkscape:cy="156.68911"
+     inkscape:zoom="1.4"
+     inkscape:cx="415.99725"
+     inkscape:cy="273.72421"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g15092"
      showgrid="false"
-     inkscape:window-width="1916"
-     inkscape:window-height="1021"
+     inkscape:window-width="1920"
+     inkscape:window-height="1080"
      inkscape:window-x="0"
-     inkscape:window-y="57"
+     inkscape:window-y="0"
      inkscape:window-maximized="0"
      showguides="true"
      inkscape:guide-bbox="true"
@@ -52,7 +52,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -97,7 +97,11 @@
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#fb660a;fill-opacity:1;font-family:Anonymous Pro;-inkscape-font-specification:Anonymous Pro"
            id="tspan8111"> cyrl_i</tspan><tspan
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#87ff00;fill-opacity:1;font-family:Anonymous Pro;-inkscape-font-specification:Anonymous Pro"
-           id="tspan8109"> 0-3</tspan></tspan></text>
+           id="tspan8109"> 0-3 <tspan
+   style="fill:#fb660a;fill-opacity:1"
+   id="tspan4571">; <tspan
+   style="fill:#d7005f;fill-opacity:1"
+   id="tspan4573">s</tspan> h7</tspan></tspan></tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text8115"
@@ -4354,20 +4358,7 @@
                  id="tspan13036"
                  x="564.75293"
                  y="239.6945"
-                 style="font-size:20.50045967px">4</tspan></text>
-          </g>
-          <g
-             transform="translate(45.175734,229.01598)"
-             id="g13038">
-            <rect
-               transform="matrix(0,-1,1,0,0,0)"
-               style="opacity:0.222;fill:#afaf87;fill-opacity:1;fill-rule:nonzero;stroke:none"
-               id="rect13040"
-               width="75.114014"
-               height="28.677153"
-               x="-296.42175"
-               y="556.93085"
-               ry="1.8509127" />
+                 style="font-size:20.50045967px">3</tspan></text>
           </g>
           <g
              id="g13062"
@@ -4516,6 +4507,30 @@
                  x="564.75293"
                  id="tspan13108"
                  sodipodi:role="line">0</tspan></text>
+          </g>
+          <g
+             id="g4599">
+            <rect
+               transform="matrix(0,-1,1,0,0,0)"
+               style="opacity:0.222;fill:#afaf87;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="rect13040"
+               width="75.114014"
+               height="28.677153"
+               x="-525.43774"
+               y="602.10657"
+               ry="1.8509127" />
+            <text
+               sodipodi:linespacing="125%"
+               id="text13034-0"
+               y="468.71048"
+               x="610.19891"
+               style="font-size:48px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#5f5f5f;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+               xml:space="preserve"><tspan
+                 style="font-size:20.50045967px"
+                 y="468.71048"
+                 x="610.19891"
+                 id="tspan13036-4"
+                 sodipodi:role="line">2</tspan></text>
           </g>
         </g>
         <g
@@ -4828,6 +4843,14 @@
                  y="208.0392">Ы</tspan></text>
           </g>
         </g>
+        <rect
+           style="fill:#d7005f;fill-opacity:1;fill-rule:nonzero;stroke:none;opacity:0.45031056000000003"
+           id="rect4575"
+           width="99.559456"
+           height="28.677153"
+           x="639.79333"
+           y="240.28476"
+           ry="1.8509127" />
       </g>
     </g>
   </g>
