@@ -46,6 +46,8 @@ After you have set the alphabet, you have to specify the letter. Then it depend 
 
 If there is no ambiguious homograph, you can simply type the name of the letter. For example, the arabic letter `jeem` haven’t any homograph in other lines.
 
+Otherwhise, in all cases, you hav an automatic completion for alphabet’s and letter’s code.
+
 ###Hidding or un showing informative groups
 There is two blocs of informative groups, the horizontal on on the top right and the vertical one in the bottom right.
 
@@ -53,6 +55,8 @@ The general syntaxe to manage informative groups is `<s [v|h]<number>`. The `v` 
 
 ##Screenshot
 ![Screenshot](./mok-up.png)
+![Alphabet suggestion](./mok-up-alphabet-suggestion.png)
+![Cyrillique suggestion](./mok-up-cyrillique-suggestion.png)
 
 ##Other versions
 [The Freecode’s Einstein Puzzle](http://freecode.com/projects/einsteinpuzzle)
