@@ -46,7 +46,7 @@ After you have set the alphabet, you have to specify the letter. Then it depend 
 
 If there is no ambiguious homograph, you can simply type the name of the letter. For example, the arabic letter `jeem` haven’t any homograph in other lines.
 
-Otherwhise, in all cases, you hav an automatic completion for alphabet’s and letter’s code.
+Otherwhise, in all cases, you can get an automatic completion for alphabet’s and letter’s code, by pressing <kbd>Tab</kbd>.
 
 ###Hidding or un showing informative groups
 There is two blocs of informative groups, the horizontal on on the top right and the vertical one in the bottom right.
@@ -54,6 +54,8 @@ There is two blocs of informative groups, the horizontal on on the top right and
 The general syntaxe to manage informative groups is `<s [v|h]<number>`. The `v` prefix is for vertical informative group and the `h` for horizontal informative group, it is immediatly followed by the number of the group in his range.
 
 ##Screenshot
+###Action’s suggestion
+![Action suggestion](./mok-up-chose-action.png)
 ###Alphabet’s suggestion
 ![Alphabet suggestion](./mok-up-alphabet-suggestion.png)
 ###Cirillic’s character suggestion
