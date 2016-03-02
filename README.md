@@ -54,9 +54,12 @@ There is two blocs of informative groups, the horizontal on on the top right and
 The general syntaxe to manage informative groups is `<s [v|h]<number>`. The `v` prefix is for vertical informative group and the `h` for horizontal informative group, it is immediatly followed by the number of the group in his range.
 
 ##Screenshot
-![Screenshot](./mok-up.png)
+###Alphabet’s suggestion
 ![Alphabet suggestion](./mok-up-alphabet-suggestion.png)
-![Cyrillique suggestion](./mok-up-cyrillique-suggestion.png)
+###Cirillic’s character suggestion
+![Cyrillic suggestion](./mok-up-cyrillique-suggestion.png)
+###Many actions
+![Screenshot](./mok-up.png)
 
 ##Other versions
 [The Freecode’s Einstein Puzzle](http://freecode.com/projects/einsteinpuzzle)
