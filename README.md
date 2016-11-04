@@ -53,6 +53,9 @@ There is two blocs of informative groups, the horizontal on on the top right and
 
 The general syntaxe to manage informative groups is `<s [v|h]<number>`. The `v` prefix is for vertical informative group and the `h` for horizontal informative group, it is immediatly followed by the number of the group in his range.
 
+###Arrow mode
+For all the actions bellow, the user can get an preview effects and all relations with arrows.
+
 ##Screenshot
 ###Action’s suggestion
 ![Action suggestion](./mok-up-chose-action.png)
@@ -62,6 +65,8 @@ The general syntaxe to manage informative groups is `<s [v|h]<number>`. The `v` 
 ![Cyrillic suggestion](./mok-up-cyrillique-suggestion.png)
 ###Many actions
 ![Screenshot](./mok-up.png)
+###Arrow mode
+![Arrow mode](./mok-up-arrow.png)
 
 ##Other versions
 [The Freecode’s Einstein Puzzle](http://freecode.com/projects/einsteinpuzzle)
