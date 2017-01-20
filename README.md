@@ -54,7 +54,7 @@ There is two blocs of informative groups, the horizontal on on the top right and
 The general syntaxe to manage informative groups is `<s [v|h]<number>`. The `v` prefix is for vertical informative group and the `h` for horizontal informative group, it is immediatly followed by the number of the group in his range.
 
 ###Arrow mode
-For all the actions bellow, the user can get an preview effects and all relations with arrows.
+For all the actions bellow, the user can get an preview effects and all relations with arrows. He can activate or desactivate it at anny moment by pressing <kbd>F7</kbd>.
 
 ##Screenshot
 ###Action’s suggestion
