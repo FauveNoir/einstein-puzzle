@@ -14,6 +14,8 @@ parser = OptionParser(usage=usage, version="%prog 0.1")
 parser.add_option("--lvl",              help="set a level from 0 to 5",              default=0, action="store", dest="lvlchoosen")
 (options, args) = parser.parse_args()
 
+if not options.lvlchoosen:
+    options.lvlchoosen = 0
 
 
 
@@ -66,32 +68,6 @@ parser.add_option("--lvl",              help="set a level from 0 to 5",         
 #print tabulate(presentablesolution, headers=[0, 1, 2, 3, 4, 5])
 #
 #
-## Obfuscation
-#
-#
-#if not options.lvlchoosen: 
-#    options.lvlchoosen = 0
-#
-#print "You choose level", options.lvlchoosen
-#
-#if options.lvlchoosen: # level choosen by the user
-#    if options.lvlchoosen not in ["0", "1", "2", "3", "4"]:
-#        print("You have to chose a level from 0 to 4")
-#    else:
-#        if options.lvlchoosen == "0":
-#            numberOfCaseShowenRange = (0,1)
-#        if options.lvlchoosen == "1":
-#            numberOfCaseShowenRange = (2,3)
-#        if options.lvlchoosen == "2":
-#            numberOfCaseShowenRange = (4,5)
-#        if options.lvlchoosen == "3":
-#            numberOfCaseShowenRange = (5,6)
-#        if options.lvlchoosen == "4":
-#            numberOfCaseShowenRange = (7,8)
-#
-##random.randint(numberOfCaseShowenRange[0], numberOfCaseShowenRange[1])
-##numberOfCaseShowen = random.randint(numberOfCaseShowenRange[0], numberOfCaseShowenRange[1])
-##print(numberOfCaseShowen)
 #
 #
 #obfuscated = solution
@@ -105,6 +81,9 @@ parser.add_option("--lvl",              help="set a level from 0 to 5",         
 #    presentablesolution.append(line2)
 #print tabulate(presentablesolution, headers=[0, 1, 2, 3, 4, 5])
 #
+
+
+
 ##reduce possibilities
 #numberOfCaseShowen=random.randint(numberOfCaseShowenRange[0], numberOfCaseShowenRange[1])
 #
@@ -146,21 +125,75 @@ parser.add_option("--lvl",              help="set a level from 0 to 5",         
 ########################################################################
 ########################################################################
 
+maxLines = 6
+maxColumns = 6
+
+class Row:
+    def __init__(self, realValue): 
+        self.realValue = ""
+        self.seenValues = range(0,maxColumns)
+        if isinstance(self.seenValues, list):
+            self.isReduced = False
+        else:
+            self.isReduced = True
+        def reduceit():
+            if self.realValue != "":
+                self.seenValues = self.realValue
+
+
 def generateNewTable():
     tempTable = []
     i = 0
-    while i < 6:
+    while i < maxLines:
 
         tempTable.append([])
-        items = range(0,6)
+        items = range(0,maxColumns)
         random.shuffle(items)
         j = 0
-        while j < 6:
-            tempTable[i].append([True,items[j]])
+        while j < maxColumns:
+            tempRow = Row(items[j])
+            tempTable[i].append(tempRow)
             j+=1
         i+=1
 
     return tempTable
 
 table = generateNewTable()
+
+# Obfuscation
+
+
+
+print "You choose level", options.lvlchoosen
+if options.lvlchoosen:
+    if options.lvlchoosen not in ["0", "1", "2", "3", "4"]:
+        print("You have to chose a level from 0 to 4")
+    else:
+        if options.lvlchoosen == "0":
+            numberOfCaseShowenRange   = (0,1)
+            numberOfTipsBeforeSolving = (5,7)
+        if options.lvlchoosen == "1":
+            numberOfCaseShowenRange   = (2,3)
+            numberOfTipsBeforeSolving = (4,6)
+        if options.lvlchoosen == "2":
+            numberOfCaseShowenRange   = (4,5)
+            numberOfTipsBeforeSolving = (3,5)
+        if options.lvlchoosen == "3":
+            numberOfCaseShowenRange   = (5,6)
+            numberOfTipsBeforeSolving = (2,4)
+        if options.lvlchoosen == "4":
+            numberOfCaseShowenRange   = (7,8)
+            numberOfTipsBeforeSolving = (1,3)
+
+random.randint(numberOfCaseShowenRange[0], numberOfCaseShowenRange[1])
+numberOfCaseShowen = random.randint(numberOfCaseShowenRange[0], numberOfCaseShowenRange[1])
+
+
+i=0
+for i in xrange(0, numberOfCaseShowen):
+    randomrow = [random.randint(0,maxLines-1),random.randint(0,maxColumns-1)]
+    if not table[randomrow[0]][randomrow[1]].isReduced :
+        table[randomrow[0]][randomrow[1]].reduceit
+        i+=1
+
 print(table)
